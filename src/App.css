@@ -1,15 +1,25 @@
+.App {
+  background-color: #2d2520;
+  height: 959px;
+  margin: 0;
+  overflow-x: hidden;
+  /* max-width: 100ch; */
+}
+
 .filmes-movie .genero {
-  width: 31%;
-  margin-top: -98%;
-  /* margin-bottom: 34%; */
+  width: 40%;
+  margin-top: -171%;
+  margin-left: 13%;
+  text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   color: #E29430;
   position: relative;
 }
 
 .banner {
-  height: 60vh;
-  width: 98vh;
+  height: 100vh;
+  width: auto;
+  overflow: hidden;
 }
 
 .botao {
@@ -18,7 +28,8 @@
   font-weight: bold;
   width: 34%;
   height: 45px;
-  margin-bottom: 72%;
+  margin-bottom: 0%;
+  margin-left: 13%;
 }
 
 .botao a {
@@ -27,6 +38,7 @@
 }
 
 .filmes-movie p, h2 {
+  margin-left: 13%;
   color: white;
   font-size: 113%;
 }
@@ -38,32 +50,61 @@
 }
 
 .filmes-movie {
-  padding-left: 3%;
+  /* padding-left: 3%; */
   width: 45%;
 }
 
 .detalhes {
-  margin-bottom: 12%;
+  margin-bottom: -1%;
+}
+
+.descricao {
+  width: 105%;
 }
 
 
-.imagem {
-  width: 184px;
-  height: 273px;
-}
-
-.generoItem {
-  margin-top: -11%;
-  color: #FFA634;
-  background-color: #000000a1;
-  position: relative;
-  width: 15%;
-}
-
-.detalhesItem {
-
+.filmes-item-container {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .filmes-item {
+  margin: 0;
+}
 
+.filmes-item p {
+  color: white;
+  margin: 2%;
+}
+
+.imagem {
+  width: 175px;
+  height: 286px;
+}
+
+.filmes-item .generoItem {
+  text-align: center;
+  margin-top: -64%;
+  color: #FFA634;
+  background-color: #000000a1;
+  position: relative;
+  width: 76%;
+}
+
+.detalhesItem {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8%;
+}
+
+.sombra-imagem {
+  background-color: #00000069;
+}
+
+.conteudo-filmes {
+  
 }
