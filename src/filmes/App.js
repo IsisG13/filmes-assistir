@@ -72,7 +72,7 @@ function App() {
               <div className="detalhesItem">
                 <p className="generoItem">{filme.genero}</p>
                 <p>{filme.estrelas} </p>
-                <p>{filme.nome}</p>
+                {/* <p>{filme.nome}</p> */}
               </div>
               <br /> <br />
             </div>

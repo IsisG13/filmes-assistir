@@ -8,7 +8,7 @@
 
 .filmes-movie .genero {
   width: 40%;
-  margin-top: -171%;
+  margin-top: -162%;
   margin-left: 13%;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
@@ -18,7 +18,7 @@
 
 .banner {
   height: 100vh;
-  width: auto;
+  width: 369%;
   overflow: hidden;
 }
 
@@ -28,7 +28,7 @@
   font-weight: bold;
   width: 34%;
   height: 45px;
-  margin-bottom: 0%;
+  margin-bottom: 52%;
   margin-left: 13%;
 }
 
@@ -44,6 +44,7 @@
 }
 
 .filmes-movie h2 {
+  width: 151%;
   font-size: 265%;
   margin-bottom: -1%;
   padding: 0;
@@ -55,11 +56,11 @@
 }
 
 .detalhes {
-  margin-bottom: -1%;
+  margin-bottom: 27%;
 }
 
 .descricao {
-  width: 105%;
+  width: 130%;
 }
 
 
@@ -72,6 +73,7 @@
 
 .filmes-item {
   margin: 0;
+  height: 300px;
 }
 
 .filmes-item p {
@@ -80,13 +82,14 @@
 }
 
 .imagem {
+  border-radius: 10px;
   width: 175px;
   height: 286px;
 }
 
 .filmes-item .generoItem {
   text-align: center;
-  margin-top: -64%;
+  margin-top: -48%;
   color: #FFA634;
   background-color: #000000a1;
   position: relative;
