@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "../App.css";
 import Filmes from "./filmes.json";
-import Cabecalho from "./cabecalho";
 
 function App() {
   const [filmes, setFilmes] = useState([]);
@@ -31,7 +30,6 @@ function App() {
 
   return (
     <div className="App">
-      <Cabecalho/>
       <div className="filmes-movie">
         {filmes.map((filme) => (
           <div key={filme.id}>
